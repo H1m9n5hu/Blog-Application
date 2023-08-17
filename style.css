@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppings, "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(lighting.jpg);
+    background-size: cover;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    background-color: white;
+    color: black;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto 0;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.title input {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.content textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    width: 70%;
+} 
+
+.input-container button {
+    width: 15%;
+    margin-top: 5px;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+#app div {
+    background-color: white;
+    color: black;
+    width: 90%;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+#app h3 {
+    margin-bottom: 5px;
+}
+
+#app div span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#app div span:hover{
+    background: #edeef0;
+}
